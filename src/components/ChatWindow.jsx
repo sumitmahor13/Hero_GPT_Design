@@ -97,7 +97,7 @@ const ChatWindow = () => {
 
   return (
     <div
-      style={{ backgroundImage: "url('public/assets/background.svg')" }}
+      style={{ backgroundImage: "url('/assets/background.svg')" }}
       className="bg-[#F1F1F1] border-2 border-gray-200 bg-cover bg-center rounded-tl-2xl flex flex-col justify-between w-full h-full min-h-[calc(100vh-50px)] px-4 sm:px-6 md:px-8 py-5 overflow-y-auto"
     >
       <div className="text-xl font-semibold">Hero GPT 2.0</div>
